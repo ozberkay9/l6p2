@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+/*font-family: 'Zen Dots', cursive;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 75%;
+}
+.top-of-the-page {
+    background-color: #2a2a2a;
+    height: 3rem;
+}
+.login {
+    position: absolute;
+    top: 1rem;
+    left: 45%;
+    color: white;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.click {
+    text-decoration: none;
+    color: green;
+}
+.click:hover {
+    text-decoration: underline white;
+
+}
+.icons {
+    position: absolute;
+    top: 1rem;
+    left: 7rem;
+}
+.twitter {
+    text-decoration: none;
+    color: #00acee;
+   
+  
+  }
+  .twitter-icon{
+  font-size: large;  
+  }
+  .facebook {
+    text-decoration: none;
+    color: #4267B2;
+ 
+  
+  }
+  .face-icon{
+  font-size: large;  
+  }
+  .insta {
+    text-decoration: none;
+    color: #bc2a8d;
+   
+  }
+  .insta-icon{
+  font-size: large;  
+  }
+  .linkedin {
+    text-decoration: none;
+    color: #0077b5;
+   
+  }
+  .linkedin-icon{
+  font-size: large;  
+  }
+  .pinterest {
+    text-decoration: none;
+    color: #E60023;
+
+  
+  }
+  .pinterest-icon{
+  font-size: large;  
+  }
+  .tiktok {
+    text-decoration: none;
+    color: #000000;
+    
+  
+  }
+  .tiktok-icon{
+  font-size: large;  
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 2rem;
+  }
+  nav ul {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1rem;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: .6rem;
+  }
+  nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    padding: .7rem;
+    font-family: 'Zen Dots', cursive;
+
+  }
+  nav ul li a:hover {
+    text-decoration: underline dotted yellow;
+    background-color: #2a2a2a;
+    color: yellow;
+    transition: all .2s;
+  }
+  .title {
+    padding-left: 2rem;
+    font-family: 'Lobster', cursive;
+    letter-spacing: .5rem;
+  }
+  .logo {
+    position: absolute;
+    right: 5rem;
+    top: 4rem;
+    clip-path: circle(50%);
+    height: 50px;
+    width: 50px;
+  }
+  .back-side {
+    width: 90%;
+  }
+  .left-text {
+    position: absolute;
+    top: 20rem;
+    padding-left: 3rem;
+    height: 15rem;
+    width: 29rem;
+  }
+  .title-s {
+    font-size: 4rem;
+    
+  }
+  .text {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+  .a {
+    background-image: linear-gradient(180deg, rgba(255, 255, 0, 0.753), rgba(158, 157, 157, 0.699));
+  }
+  .row {
+    display: flex;
+    margin-bottom: 1rem;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+
+  }
+  .col-1-of-4 {
+    padding: 4rem;
+    float: left;
+    width: calc((100% - (3 * 3rem))/4);
+    text-align: center;
+  }
+  .col-1-of-3:not(:last-child){
+    margin-right: 3rem;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.satis {
+  text-transform: capitalize;
+  text-align: center;
+  background-color: yellow;
+  font-family: 'Zen Dots', cursive;
+  font-size: 3rem;
+  letter-spacing: .3rem;
+  color: #2a2a2a;
+}
+.picture-1{
+  position: absolute;
+  clip: rect(0, 0, 550px, 0);
+}

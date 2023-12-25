@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+/*font-family: 'Zen Dots', cursive;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 75%;
+}
+.top-of-the-page {
+    background-color: #2a2a2a;
+    height: 3rem;
+}
+.login {
+    position: absolute;
+    top: 1rem;
+    left: 45%;
+    color: white;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.click {
+    text-decoration: none;
+    color: green;
+}
+.click:hover {
+    text-decoration: underline white;
+
+}
+.icons {
+    position: absolute;
+    top: 1rem;
+    left: 7rem;
+}
+.twitter {
+    text-decoration: none;
+    color: #00acee;
+   
+  
+  }
+  .twitter-icon{
+  font-size: large;  
+  }
+  .facebook {
+    text-decoration: none;
+    color: #4267B2;
+ 
+  
+  }
+  .face-icon{
+  font-size: large;  
+  }
+  .insta {
+    text-decoration: none;
+    color: #bc2a8d;
+   
+  }
+  .insta-icon{
+  font-size: large;  
+  }
+  .linkedin {
+    text-decoration: none;
+    color: #0077b5;
+   
+  }
+  .linkedin-icon{
+  font-size: large;  
+  }
+  .pinterest {
+    text-decoration: none;
+    color: #E60023;
+
+  
+  }
+  .pinterest-icon{
+  font-size: large;  
+  }
+  .tiktok {
+    text-decoration: none;
+    color: #000000;
+    
+  
+  }
+  .tiktok-icon{
+  font-size: large;  
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 2rem;
+  }
+  nav ul {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1rem;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: .6rem;
+  }
+  nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2a2a2a;
+    padding: .7rem;
+    font-family: 'Zen Dots', cursive;
+
+  }
+  nav ul li a:hover {
+    text-decoration: underline dotted yellow;
+    background-color: #2a2a2a;
+    color: yellow;
+    transition: all .2s;
+  }
+  .title {
+    padding-left: 2rem;
+    font-family: 'Lobster', cursive;
+    letter-spacing: .5rem;
+  }
+  .logo {
+    position: absolute;
+    right: 5rem;
+    top: 4rem;
+    clip-path: circle(50%);
+    height: 50px;
+    width: 50px;
+  }
+  .back-side {
+    width: 90%;
+  }
+  .left-text {
+    position: absolute;
+    top: 20rem;
+    padding-left: 3rem;
+    height: 15rem;
+    width: 29rem;
+  }
+  .title-s {
+    font-size: 4rem;
+    
+  }
+  .text {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+#contact-form {
+  position: absolute;
+  top: 25%;
+  left: 3%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+.row label {
+  display: block;
+ 
+}
+  label {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+    
+  }
+  input,
+  select,
+  textarea {
+    width: 260px;
+    border-radius: 5px;
+    height: 3rem;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: inherit;
+    font-family: inherit;
+    
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: rgb(175, 175, 175); /*text color inside the box which is coming when you open the page*/ 
+  }
+  input:hover,
+  #submit_button:hover,
+  #reset_button:hover,
+  textarea:hover,
+  select:hover {
+  border-color: blue;
+  cursor: pointer;
+  }
+  textarea {
+    min-height: 42px;
+    min-width: 260px;
+    max-width: 260px;
+    padding-top: 10px;
+  }
+  .contact {
+    position: absolute;
+    top: 95%;
+    left: 2.5%;
+    text-transform: capitalize;
+    font-family: 'Zen Dots', cursive;
+    word-spacing: .3rem;  
+    letter-spacing: .1rem;
+  }
+  h2,
+  p {
+    padding: .5rem;
+  }
+  #submit_button {
+    background-color: #4267B2;
+    border: solid black thin;
+    width: 65px;
+    margin-right: 10px;
+    padding-right: 1px;
+    padding-left: 1px;
+    font-weight: bold;
+  }
+  #reset_button {
+    background-color: red;
+    border: solid black thin;
+    width: 65px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  
